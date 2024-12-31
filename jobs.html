@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Best Job Search Sites</title>
+    <link rel="stylesheet" href="jobs.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>List of Best Job Search Sites</h1>
+      <div class="search-box">
+        <input type="text" id="job-name" placeholder="Search job name" />
+        <input type="text" id="location-name" placeholder="Location name" />
+        <button class="submit-button" onclick="filterJobs()">Submit</button>
+      </div>
+
+      <div class="job-listing" id="job-listing">
+        <!-- Your existing job cards remain unchanged -->
+      </div>
+
+      <div class="job-listing">
+        <div class="job-card">
+          <div class="image">
+            <img src="openimage.png" alt="Company Logo" />
+          </div>
+          <div class="vertical-line"></div>
+          <div class="content">
+            <h2>Naukri</h2>
+            <p>
+              Naukri, founded in 1997, is a leading job portal in India,
+              attracting millions of visitors monthly. It offers diverse job
+              opportunities, including work-from-home options, and is known for
+              its user-friendly interface. Many users have successfully found
+              jobs through the platform, making it a reliable choice for job
+              seekers across various fields.
+            </p>
+          </div>
+          <div class="vertical-line"></div>
+          <div class="apply-button">
+            <button>Apply</button>
+          </div>
+        </div>
+
+        <div class="job-card">
+          <div class="image">
+            <img src="openimage.png" alt="Company Logo" />
+          </div>
+          <div class="vertical-line"></div>
+          <div class="content">
+            <h2>LinkedIn</h2>
+            <p>
+              LinkedIn, founded in 2003, is a top platform for professionals in
+              India to network, showcase skills, and find job opportunities. It
+              offers targeted job searches, direct communication with
+              recruiters, and a professional profile to highlight your
+              expertise. Millions use LinkedIn daily, making it a powerful tool
+              for career growth.
+            </p>
+          </div>
+          <div class="vertical-line"></div>
+          <div class="apply-button">
+            <button>Apply</button>
+          </div>
+        </div>
+
+        <div class="job-card">
+          <div class="image">
+            <img src="openimage.png" alt="Company Logo" />
+          </div>
+          <div class="vertical-line"></div>
+          <div class="content">
+            <h2>Glassdoor</h2>
+            <p>
+              Glassdoor, founded in 2008, is a valuable resource for Indian job
+              seekers. It offers company reviews from current and former
+              employees, salary information for various roles, and interview
+              tips shared by candidates. This helps you make informed decisions
+              about potential employers and prepare effectively for interviews.
+            </p>
+          </div>
+          <div class="vertical-line"></div>
+          <div class="apply-button">
+            <button>Apply</button>
+          </div>
+        </div>
+
+        <div class="job-card">
+          <div class="image">
+            <img src="openimage.png" alt="Company Logo" />
+          </div>
+          <div class="vertical-line"></div>
+          <div class="content">
+            <h2>Indeed</h2>
+            <p>
+              Indeed, launched in 2004, is a global job portal popular in India.
+              It offers a vast collection of job listings across various
+              industries, including software companies. The platform's easy
+              search feature, using simple keywords or advanced filters, helps
+              job seekers quickly find opportunities that match their skills and
+              interests.
+            </p>
+          </div>
+          <div class="vertical-line"></div>
+          <div class="apply-button">
+            <button>Apply</button>
+          </div>
+        </div>
+
+        <div class="job-card">
+          <div class="image">
+            <img src="openimage.png" alt="Company Logo" />
+          </div>
+          <div class="vertical-line"></div>
+          <div class="content">
+            <h2>Upwork</h2>
+            <p>
+              Upwork, started in 2013, is a top platform for Indian freelancers,
+              offering diverse projects in writing, design, coding, and more. It
+              allows remote work, helping you maintain work-life balance. Upwork
+              helps build your portfolio and find long-term clients, making it
+              ideal for those seeking freelance careers.
+            </p>
+          </div>
+          <div class="vertical-line"></div>
+          <div class="apply-button">
+            <button>Apply</button>
+          </div>
+        </div>
+
+        <div class="job-card">
+          <div class="image">
+            <img src="openimage.png" alt="Company Logo" />
+          </div>
+          <div class="vertical-line"></div>
+          <div class="content">
+            <h2>FoundIt</h2>
+            <p>
+              Foundit, formerly known as Monster, has been a key player in
+              Indian job hunting since 2010. It offers a wide variety of job
+              postings across multiple fields, including IT, marketing, finance,
+              and healthcare. Foundit also features remote work options and
+              resources for fresh graduates, making it a versatile platform for
+              job seekers at all stages of their careers.
+            </p>
+          </div>
+          <div class="vertical-line"></div>
+          <div class="apply-button">
+            <button>Apply</button>
+          </div>
+        </div>
+
+        <div class="job-card">
+          <div class="image">
+            <img src="openimage.png" alt="Company Logo" />
+          </div>
+          <div class="vertical-line"></div>
+          <div class="content">
+            <h2>Times Jobs</h2>
+            <p>
+              TimesJobs, founded in 2004 and managed by the Times Group, has
+              over 25 million registered job seekers. It offers personalized job
+              recommendations based on your profile, a dedicated section for
+              government jobs, and TechGIG.com for IT jobs. TimesJobs provides a
+              wide range of job postings across various industries, making it a
+              versatile platform for all job seekers in India.
+            </p>
+          </div>
+          <div class="vertical-line"></div>
+          <div class="apply-button">
+            <button>Apply</button>
+          </div>
+        </div>
+
+        <div class="job-card">
+          <div class="image">
+            <img src="openimage.png" alt="Company Logo" />
+          </div>
+          <div class="vertical-line"></div>
+          <div class="content">
+            <h2>Freshers World</h2>
+            <p>
+              Freshersworld, founded in 2006, is tailored for fresh graduates
+              and those with limited experience. It offers resources and job
+              postings relevant to entry-level roles. The platform provides free
+              basic services, allowing users to create profiles, search for
+              jobs, and apply without any initial cost.
+            </p>
+          </div>
+          <div class="vertical-line"></div>
+          <div class="apply-button">
+            <button>Apply</button>
+          </div>
+        </div>
+
+        <div class="job-card">
+          <div class="image">
+            <img src="openimage.png" alt="Company Logo" />
+          </div>
+          <div class="vertical-line"></div>
+          <div class="content">
+            <h2>Jobs For Her</h2>
+            <p>
+              JobsForHer, founded in 2015 by Neha Bagaria, is tailored for women
+              job seekers in India. It offers curated job opportunities,
+              flexible work options, and valuable career support like guidance
+              workshops and interview tips. The platform also provides
+              networking opportunities, helping women connect and grow
+              professionally.
+            </p>
+          </div>
+          <div class="vertical-line"></div>
+          <div class="apply-button">
+            <button>Apply</button>
+          </div>
+        </div>
+
+        <div class="job-card">
+          <div class="image">
+            <img src="openimage.png" alt="Company Logo" />
+          </div>
+          <div class="vertical-line"></div>
+          <div class="content">
+            <h2>Cutshort</h2>
+            <p>
+              Cutshort, founded in 2015, uses AI to connect you with the best
+              job search portals in India. It analyzes your skills and career
+              goals to recommend relevant job boards, saving you time and
+              effort. Cutshort acts as a career matchmaker, directing you to
+              platforms with the best opportunities for your profile.
+            </p>
+          </div>
+          <div class="vertical-line"></div>
+          <div class="apply-button">
+            <button>Apply</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

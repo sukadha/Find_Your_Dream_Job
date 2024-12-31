@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.search-box {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.search-box input {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 300px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.search-box input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.search-btn {
+  padding: 12px 25px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+  background-color: #0056b3;
+}
+
+.results-info {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.job-listing {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.job-card {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-3px);
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.vertical-line {
+  width: 1px;
+  height: 100px;
+  background-color: #ddd;
+  margin: 0 20px;
+}
+
+.content {
+  flex: 1;
+}
+
+.content h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.content p {
+  color: #666;
+  line-height: 1.5;
+}
+
+.apply-button button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.apply-button button:hover {
+  background-color: #218838;
+}
+
+@media (max-width: 768px) {
+  .search-box input {
+    width: 100%;
+  }
+
+  .job-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .vertical-line {
+    width: 80%;
+    height: 1px;
+    margin: 15px 0;
+  }
+
+  .apply-button {
+    margin-top: 15px;
+  }
+}

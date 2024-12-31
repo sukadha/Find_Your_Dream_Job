@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url("https://i.pinimg.com/736x/36/93/08/369308990f97131be2d18fce35713859.jpg"); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.login-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  border: 3px solid #ccc;
+  width: 500px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.login-logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 12px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 35px;
+  color: #333;
+}
+
+.input-box {
+  margin-bottom: 20px; /* Space between input and button */
+}
+
+.input-box label {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 22px;
+  color: #333;
+}
+
+.input-box input,
+.submit-btn {
+  width: 100%; /* Same size for all */
+  padding: 18px; /* Same padding for consistency */
+  font-size: 20px; /* Same font size */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensures padding doesn't alter width */
+}
+
+.submit-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
